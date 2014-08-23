@@ -1,0 +1,43 @@
+{
+  "name": "angular-route",
+  "version": "1.0.2",
+  "description": "Jam package for angular 1.3",
+  "homepage": "https://github.com/woss/jam-angular-route",
+  "keywords": [
+    "package",
+    "angular",
+	"jam"
+  ],
+  "jam": {
+    "dependencies": {
+		"angular": ">1.0.x"
+	},
+    "main": "angular-route.js",
+	"shim": {
+       "exports": "angular-route"
+    }
+  },
+  "maintainers": [
+    {
+      "name": "Danijel Maricic",
+      "email": "danijelmaricic@gmail.com",
+      "web": "http://www.dmaricic.com" 
+    } 
+  ],
+  "bugs": {
+    "web": "https://github.com/woss/jam-angular-1.3x/issues" 
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git", 
+      "url": "https://github.com/woss/jam-angular-1.3x"
+    }
+  ],
+  "github": "https://github.com/woss/jam-angular-1.3x"
+}
